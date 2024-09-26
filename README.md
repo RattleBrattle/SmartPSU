@@ -23,8 +23,11 @@ The Smart Power Supply currently supports the following 3 functions, with more i
 - Supports charging for 18650 and Lithium-ion batteries.
 - Ensures safe and efficient battery charging with built-in protection features.
 
-- ![40W Charging Circuit](https://github.com/RattleBrattle/SmartPSU/blob/main/Images/Charging%20Circuits/40W%20Charging.png?raw=true)
-- ![30W Charging Circuit]()
+40W Charging Circuit schematic:
+![40W Charging Circuit](https://github.com/RattleBrattle/SmartPSU/blob/main/Images/Charging%20Circuits/40W%20Charging.png?raw=true)
+
+30W Charging Circuit schematic:
+![30W Charging Circuit](https://github.com/RattleBrattle/SmartPSU/blob/main/Images/Charging%20Circuits/5W%20Circuit.png?raw=true)
 
 ## Getting Started
 
