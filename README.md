@@ -1,7 +1,3 @@
-Certainly! Here's the corrected version with proper formatting for the headers and sections:
-
----
-
 # SmartPSU
 
 Welcome to the Smart Power Supply project! This repository contains the code and design files for a versatile power supply unit currently under development. The smart power supply is designed to provide reliable and adjustable power output for various applications, featuring multiple modes to cater to different power requirements.
