@@ -7,6 +7,24 @@ Welcome to the Smart Power Supply project! This repository contains the code and
 ## Features
 
 The Smart Power Supply has 5 main features:
+- The voltage is sensed using a voltage divider of Power Resistors.
+- The Current is measured using the current sensor module board ACS712.
+
+## Components:
+* ACS712 Current sensor module board 20A.
+* Linear Transformer 24V @ 5A.
+* 4x 18650 battery holder.
+* TP4056 Lithium battery charger.
+* 120mm Fan.
+* L7812, L7805 Regulators and their dependencies.
+* LM317T and LM337T for Low power circuit and it's dependencies.
+* LM338T for High Power circuit and it's dependencies.
+* L293D for PWM fan control.
+* LM35DZ Temperature sensor.
+* LCD 16x2 display.
+* 10kohm potentiometer, two buttons for the Menu controls.
+* 2 USB type A female outputs for charging circuits output.
+* 8 Banana Plugs for outputs of Power circuits and input of Frequency counter.
 
 ### High Power Mode:
 - The mode's output is maximum at 5A, and at around 34V that means the output is around ~170W!
