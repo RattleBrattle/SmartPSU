@@ -67,6 +67,16 @@ on the LCD screen warning them!
 
 ![The Temperature sensor and 12V fan Control:](https://github.com/user-attachments/assets/5c2bda85-9acb-49a0-b5f9-0f2d4087508a)
 
+## 3D Case model:
+- I've modeled a 3D case for the Device using Fusion 360, the case is ready to be 3D printed as i've also uploaded the 3D files
+above.
+
+![3D case Front:](https://github.com/user-attachments/assets/b41d8b28-8c64-4878-b333-70caec04522a)
+
+![3D case Back:](https://github.com/user-attachments/assets/77513ff6-b749-4df4-b09b-b1aab5709583)
+
+
+
 ### Usage
 When the user first powers on the device, the LCD screen prints out a menu with a cursor.
 - The user controls the cursor position by moving the Main Menu potentiometer next to the LCD screen.
