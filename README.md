@@ -31,6 +31,16 @@ The Smart Power Supply currently supports the following 3 functions, with more i
 30W Charging Circuit schematic:
 ![30W Charging Circuit](https://github.com/RattleBrattle/SmartPSU/blob/main/Images/Charging%20Circuits/5W%20Circuit.png?raw=true)
 
+### Frequency Counter input:
+- Using Precise calculations and the Timer 1 Peripheral on the ATmega32A, i managed to code a very useful feature
+like that in the Smart Power Supply, simply put the frequency counter gives the user option to choose between the diverse
+type of Prescalers in the ATmega32A Timer 1 peripheral depending on the frequency of the signal being tested.
+The user Changes the Prescaler just like the main menu using the potentiometer and buttons.
+
+- Example of the Menu:
+![Prescaler-Menu](https://github.com/user-attachments/assets/dd1ecc1b-d4cb-4cae-935f-4f38db478654)
+
+
 ## Getting Started
 
 WIP!
