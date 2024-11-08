@@ -6,20 +6,20 @@ Welcome to the Smart Power Supply project! This repository contains the code and
 
 ## Features
 
-The Smart Power Supply currently supports the following 3 functions, with more ideas that I want to implement coming along the way:
+The Smart Power Supply has 5 main features:
 
-### High Power Mode
+### High Power Mode:
 - The mode's output is maximum at 5A, and at around 34V that means the output is around ~170W!
 - Provides a high power output suitable for demanding applications and High Powered electronics.
 - Ensures stable and efficient power delivery for high-performance devices using the effective but simple LM338T voltage regulator.
 
-### Low Power Mode
+### Low Power Mode:
 - This mode's output is maximum at 1.5, which is suitable for everyday electronics and logic circuits or weak motors.
 - Offers a low power output for energy-efficient operation.
 - Ideal for applications that require minimal power consumption.
 - both positive and negative output using the LM317T and LM337T voltage regulators respectively.
 - 
-### Charging Circuit Outputs
+### Charging Circuits:
 - 5W circuit and a 40W circuit for both USB output ports.
 - Includes dedicated charging circuits for various battery types and Charging mobile phones.
 - Supports charging for 18650 and Lithium-ion batteries.
@@ -31,7 +31,7 @@ The Smart Power Supply currently supports the following 3 functions, with more i
 30W Charging Circuit schematic:
 ![30W Charging Circuit](https://github.com/RattleBrattle/SmartPSU/blob/main/Images/Charging%20Circuits/5W%20Circuit.png?raw=true)
 
-### Frequency Counter input:
+### Frequency Counter:
 - Using Precise calculations and the Timer 1 Peripheral on the ATmega32A, i managed to code a very useful feature
 like that in the Smart Power Supply, simply put the frequency counter gives the user option to choose between the diverse
 type of Prescalers in the ATmega32A Timer 1 peripheral depending on the frequency of the signal being tested.
@@ -40,14 +40,14 @@ The user Changes the Prescaler just like the main menu using the potentiometer a
 - Example of the Menu:
 ![Prescaler-Menu](https://github.com/user-attachments/assets/dd1ecc1b-d4cb-4cae-935f-4f38db478654)
 
+### PWM Fan Control and Temperature sensor:
+- The user can control the FAN speed by choosing the option in the Main Menu, using the L293D
+as PWM controller and the Input power is 12V using the L7812 Regulator.
+- The Power supply also has a critical function, a function that calculates the current temperature.
+Where if the current temperature exceeds 35 degrees, Their is a warning message that is prompted to the user
+on the LCD screen warning them!
 
-## Getting Started
-
-WIP!
-
-### Installation
-
-WIP!
+![The Temperature sensor and 12V fan Control:](https://github.com/user-attachments/assets/5c2bda85-9acb-49a0-b5f9-0f2d4087508a)
 
 ### Usage
 When the user first powers on the device, the LCD screen prints out a menu with a cursor.
@@ -61,4 +61,4 @@ Contributions are welcome! If you have any suggestions, bug reports, or feature 
 
 ## License
 
-This project is licensed under the [Your License] - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the [GNU] - see the [LICENSE](LICENSE) file for details.
