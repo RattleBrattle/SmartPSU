@@ -75,7 +75,7 @@ When the user first powers on the device, the LCD screen prints out a menu with 
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, Please email me at baselmohamed802@gmail.com or [message me on my LinkedIn page](www.linkedin.com/in/basel-sayed-b11534243)! 
+Contributions are welcome! If you have any suggestions, bug reports, or feature requests, Please email me at baselmohamed802@gmail.com or [message me on my LinkedIn page](www.linkedin.com/in/basel-sayed-b11534243) ! 
 
 ## License
 
